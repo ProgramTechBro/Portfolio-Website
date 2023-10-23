@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Mooli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500&family=Mooli&display=swap" rel="stylesheet">
+    <title>Portfolio Page</title>
+    <style>
+        body {
+            background-image: url('backgroundpic.jpeg'); 
+            background-size: cover; /* body pic */
+            background-repeat: no-repeat; 
+        }
+        .navbar {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <h3 style="font-family: Dancing Script;font-size: 40px;">Waqar Ahmed</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navigation Bar Code -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto"> 
+                <li class="nav-item">
+                    <a style="font-size: 20px;padding-right: 50px;" class="nav-link" href="portfolio.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a style="font-size: 20px;padding-right: 50px;" class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a style="font-size: 20px;padding-right: 50px;" class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a style="font-size: 20px;padding-right: 50px;" class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item active">
+                    <a style="font-size: 20px;padding-right: 50px;" class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a style="font-size: 20px;padding-right: 50px;" class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Projects Intro Code -->
+    <div class="proinfo">
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+            <h2 style="color: rgb(5, 150, 121); font-family: Inter;">_Projects</h2>
+            <p style="font-size: 17px; font-family: Inter; text-align: center;">Explore my recent projects, where I've brought innovative ideas to life through web development and design. These showcases reflect my dedication to creating visually appealing and functional websites. Discover how I blend creativity and technology to deliver engaging user experiences.</p>
+        
+            <div style="display: flex;gap: 20px;">
+                <button class="large-button">Source Code</button>
+                <button class="large-button">Live Preview</button>
+            </div>
+        </div>
+    </div>    
+    <!-- Projects List 1  Code -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+               <div class="projectlist">
+                <div class="card" style="width: 24rem;">
+                        <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist1/sr1.jpeg" alt="First slide">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="plist1/sr2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist1/sr3.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist1/cr1.jpg" alt="Fourth slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Resto System</h5>
+                            <p class="card-text">An innovative Smart Restaurant System designed for enhanced dining experiences, offering seamless ordering, interactive menus, and efficient table management.</p>
+                            <a href="#" class="btn btn-primary" style="border-radius: 10px;">See Details</a>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+                 <div class="projectlist">
+                    <div class="card" style="width: 24rem;">
+                        <div id="projectCarousel2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist1/cr1.jpg" alt="Fifth slide">
+                                </div>
+                                <div class="carousel-item active"> 
+                                    <img class="d-block w-100" src="plist1/cr2.jpg" alt="Sixth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist1/cr3.png" alt="seven slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist1/cr4.jpg" alt="eigth slide">
+                                </div>
+                            </div>
+                    
+                            <a class="carousel-control-prev" href="#projectCarousel2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#projectCarousel2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                         </div>
+                         <div class="card-body">
+                            <h5 class="card-title">Car Rental System</h5>
+                            <p class="card-text">A user-friendly Car Rental System that simplifies the process of renting vehicles, providing customers with a wide range of choices, easy reservations, and hassle-free rentals.</p>
+                            <a href="#" class="btn btn-primary" style="border-radius: 10px;">See Details</a>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+                <div class="projectlist">
+                    <div class="card" style="width: 24rem;">
+                        <div id="projectCarousel3" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist1/tk1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="plist1/tk2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist1/tk3.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist1/tk4.jpg" alt="Fourth slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#projectCarousel3" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#projectCarousel3" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ticket Booking System</h5>
+                            <p class="card-text">Streamline your ticket booking experience with our platform. Enjoy quick access, secure payments, and a seamless booking process for a wide range of events and services.</p>
+                            <a href="#" class="btn btn-primary" style="border-radius: 10px;">See Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Projects List 2  Code -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+               <div class="projectlist">
+                <div class="card" style="width: 24rem;">
+                        <div id="projectCarousel4" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist2/ec1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="plist2/ec2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist2/ec3.png" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#projectCarousel4" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#projectCarousel4" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce Store</h5>
+                            <p class="card-text">Build an online shopping platform where users can browse products, add items to their cart, and make secure purchases.It was created by Flutter and Firebase.</p>
+                            <a href="#" class="btn btn-primary" style="border-radius: 10px;">See Details</a>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+                 <div class="projectlist">
+                    <div class="card" style="width: 24rem;">
+                        <div id="projectCarousel5" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist2/lm1.jpg" alt="Fifth slide">
+                                </div>
+                                <div class="carousel-item active"> 
+                                    <img class="d-block w-100" src="plist2/lm2.jpg" alt="Sixth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist2/lm3.jpg" alt="seven slide">
+                                </div>
+                            </div>
+                    
+                            <a class="carousel-control-prev" href="#projectCarousel5" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#projectCarousel5" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                         </div>
+                         <div class="card-body">
+                            <h5 class="card-title">Library Management System</h5>
+                            <p class="card-text">Create a digital system for libraries to manage their book inventory, track borrowing and returns, and provide users with an easy way to search for and check out books..</p>
+                            <a href="#" class="btn btn-primary" style="border-radius: 10px;">See Details</a>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+                <div class="projectlist">
+                    <div class="card" style="width: 24rem;">
+                        <div id="projectCarousel6" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist2/ls1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="plist2/ls2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="plist2/ls3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#projectCarousel6" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#projectCarousel6" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Management System</h5>
+                            <p class="card-text">Develop a platform for educational institutions to offer online courses. Users can enroll in courses, access learning materials, submit assignments, and track their progress.</p>
+                            <a href="#" class="btn btn-primary" style="border-radius: 10px;">See Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
